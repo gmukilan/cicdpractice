@@ -3,7 +3,7 @@ pipeline {
     stages {
         stage('Prod Environment') {
             steps {
-              sh "echo MainBranch"              
+              sh "echo prodBranch"              
               }
              }
             }
